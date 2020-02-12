@@ -929,7 +929,7 @@ html, body {
 	
 	.top-menu {
 		position: fixed;
-		top: 91px;
+		top: 0;
 		left: -900px;
 		margin: 0;
 		padding: 0;
@@ -970,8 +970,8 @@ html, body {
 	.menu-toggle {
 		position: absolute;
 		display: block;
-		top: 45px;
-		right: 25px;
+		top: 15px;
+		right: 15px;
 		margin: 0;
 		padding: 5px;
 		background-color: #0F9999;
@@ -1058,6 +1058,7 @@ html, body {
 	
 	.heading-large-serif {
 		font-size: 25px;
+		font-weight: 600;
 	}
 	
 	.subheading-small-grey {
