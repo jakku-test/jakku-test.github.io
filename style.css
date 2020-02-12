@@ -84,7 +84,8 @@ html, body {
 	padding: 0;
 	font-size: 22px;
 	font-family: Trebuchet MS, sans-serif;
-	color: #666666;
+	font-weight: 400;
+	color: #333333;
 	line-height: 1.6;
 }
 
