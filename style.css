@@ -458,18 +458,11 @@ html, body {
 /*---- FOURTH SECTION ----*/
 
 
-.fourth-section-col-wrapper {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	margin: 0;
-	padding: 0;
-}
-
 .fourth-section-col {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	padding: 95px;
+	padding: 0;
 }
 
 .fourth-section-text {
