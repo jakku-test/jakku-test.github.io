@@ -783,17 +783,6 @@ html, body {
 	}
 	
 	
-	/*---- FOURTH SECTION ----*/
-	
-	
-	.fourth-section-col {
-		display: flex;
-		flex-direction: column;
-		margin: 0;
-		padding: 95px 20px;
-	}
-	
-	
 }
 
 
