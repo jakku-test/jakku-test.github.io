@@ -890,6 +890,10 @@ html, body {
 		display: block;
 	}
 	
+	.lock-scroll {
+		overflow: hidden;
+	}
+	
 	.menu-open {
 		height: auto;
 	}
@@ -907,7 +911,7 @@ html, body {
 	}
 	
 	.menu-toggle {
-		position: absolute;
+		position: fixed;
 		display: block;
 		top: 15px;
 		right: 15px;
