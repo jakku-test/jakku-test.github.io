@@ -268,11 +268,7 @@ html, body {
 
 .no-spacing-container {
 	margin: 0;
-	padding: 0;
-}
-
-.small-nav-height {
-	min-height: 334px;
+	padding: 0 20px;
 }
 
 .top-banner-container {
@@ -280,9 +276,10 @@ html, body {
 	padding: 0;
 	width: 100%;
 	height: 350px;
-	background-image: url(./images/train-slim-banner.jpg);
+	background-image: url(./images/water-island-banner.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .blue-section-container {
@@ -328,7 +325,6 @@ html, body {
 }
 
 .top-nav ul {
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
@@ -430,7 +426,6 @@ html, body {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 	grid-gap: 80px;
-	justify-content: space-between;
 	margin: 0;
 	padding: 50px 0;
 }
@@ -623,17 +618,18 @@ html, body {
 /*-------- SERVICES PAGE --------*/
 
 
-.services-second-section, .contact-second-section {
-	border-bottom: 1px solid #D0D6E1;
-}
-
 .services-third-section-col-wrapper {
 	margin: 50px 0;
 }
 
-.services-third-section, .faq-third-section, .contact-third-section {
-	padding: 70px 0;
+.services-section-spacing-one, .faq-section-spacing-one, .faq-section-spacing-two, .contact-section-spacing {
 	border-bottom: 1px solid #D0D6E1;
+}
+
+.services-section-spacing-two {
+	padding-top: 50px;
+	padding-bottom: 0;
+	border: none;
 }
 
 .services-third-section-col {
@@ -641,7 +637,14 @@ html, body {
 }
 
 .services-fourth-section {
-	padding: 60px 0;
+	padding: 70px 0;
+}
+
+.services-fourth-section-col {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
 }
 
 .services-page-fourth-section-bot {
@@ -658,8 +661,8 @@ html, body {
 /*-------- FAQ PAGE --------*/
 
 
-.faq-second-section {
-	padding-bottom: 50px;
+.faq-section-spacing-two {
+	padding-top: 50px;
 }
 
 .faq-section-top-text {
@@ -694,8 +697,9 @@ html, body {
 
 .contact-third-section-info-wrapper {
 	display: grid;
-	grid-template-columns: repeat(3, minmax(auto, 200px));
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 80px;
+	max-width: 650px;
 	margin: 0;
 	margin-bottom: 30px;
 	padding: 0;
@@ -779,7 +783,7 @@ html, body {
 	}
 	
 	.resize-spacing {
-		padding: 40px 20px;
+		padding: 0 20px;
 	}
 	
 	
@@ -847,7 +851,7 @@ html, body {
 	.top-nav {
 		position: relative;
 		margin: 0 auto;
-		padding: 0;
+		padding: 40px 0;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -855,16 +859,15 @@ html, body {
 	}
 	
 	.top-menu {
+		display: none;
 		position: fixed;
 		top: 0;
-		left: -900px;
+		left: 0;
 		margin: 0;
 		padding: 0;
 		width: 100%;
 		height: 100%;
-		overflow: hidden;
 		background-color: #FFFFFF;
-		border-right: 1px solid #888888;
 	}
 	
 	.top-nav ul {
@@ -880,6 +883,11 @@ html, body {
 		margin: 0;
 		padding: 20px;
 		border-top: 1px dotted #888888;
+		text-align: center;
+	}
+	
+	.active {
+		display: block;
 	}
 	
 	.menu-open {
@@ -981,7 +989,7 @@ html, body {
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
 	
 	
 	/*---- TEXT ELEMENTS ----*/
@@ -1010,6 +1018,19 @@ html, body {
 	.block-link-top, .block-link-top-two {
 		margin: 0 auto;
 		margin-top: 40px;
+	}
+	
+	
+	/*---- CONTACT PAGE ----*/
+	
+	
+	.contact-third-section-info-wrapper {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 30px;
+		max-width: 650px;
+		margin: 0;
+		padding: 0;
 	}
 	
 	

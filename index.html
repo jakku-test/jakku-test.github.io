@@ -16,13 +16,9 @@
 		
 		var main = function() {
 			$(".menu-toggle").click(function() {
-				$(".top-menu").animate({left:"0px"}, 300);
-				$("body").animate({left:"900px"}, 300);
+				$(".top-menu").toggleClass("active");
 			});
-			$(".toggle-close").click(function() {
-				$(".top-menu").animate({left:"-900px"}, 300);
-				$("body").animate({left:"0"}, 300);
-			});
+			
 		}
 		
 		$(document).ready(main);
@@ -43,9 +39,7 @@
 					<img class="nav-logo-img" src="./images/nav-logo.png">
 				</div>
 				<div class="top-menu">
-					<!-- CLOSE BUTTON -->
-					<div class="toggle-close"></div>
-					<!-- END CLOSE BUTTON -->
+					
 					<ul>
 						<li><a class="top-nav-links" href="index.html">Home</a></li>
 						<li><a class="top-nav-links" href="about.html">About Us</a></li>
@@ -130,19 +124,6 @@
 			<div class="section-inner section-spacing-one">
 				<!-- THIRD SECTION ROWS -->
 				<div class="third-section-col-wrapper">
-					<!-- THIRD SECTION FIRST COLUMN -->
-					<div class="third-section-col">
-						<div class="third-section-col-top">
-							<div class="third-section-icons">
-								<img src="./images/paperwork-icon.png">
-							</div>
-							<h3 class="heading-caps-small-orange">Real Estate Paperwork</h3>
-						</div>
-						<p class="sans-serif-small-grey">Donec finibus leo eget dui porttitor, tincidunt vestibulum felis mattis. Donec sit amet rutrum massa. Praesent vel mattis nisi. Suspendisse 
-						semper aliquam sodales. Morbi vulputate felis nec gravida pharetra. Vivamus dolor erat, placerat non egestas vel</p>
-						<a class="small-link-orange" href="#">Need paperwork done?</a>
-					</div>
-					<!-- END THIRD SECTION FIRST COLUMN -->
 					<!-- THIRD SECTION SECOND COLUMN -->
 					<div class="third-section-col">
 						<div class="third-section-col-top">
@@ -152,7 +133,9 @@
 							<h3 class="heading-caps-small-orange">Welcome To Everyone</h3>
 						</div>
 						<p class="sans-serif-small-grey">Donec finibus leo eget dui porttitor, tincidunt vestibulum felis mattis. Donec sit amet rutrum massa. Praesent vel mattis nisi. Suspendisse 
-						semper aliquam sodales. Morbi vulputate felis nec gravida pharetra. Vivamus dolor erat, placerat non egestas vel</p>
+						semper aliquam sodales. Morbi vulputate felis nec gravida pharetra. Vivamus dolor erat, placerat non egestas vel. Mauris ut metus ut lorem ornare sodales ac quis ligula. 
+						Fusce pulvinar metus non sollicitudin placerat. Donec consequat pellentesque mauris nec aliquet. Ut ac ante ex. Curabitur vel lobortis nulla. Vivamus elit tortor, laoreet 
+						nec ligula non, feugiat fermentum magna.</p>
 						<a class="small-link-orange" href="#">Servicing the community</a>
 					</div>
 					<!-- ENDTHIRD SECTION SECOND COLUMN -->
@@ -165,23 +148,12 @@
 							<h3 class="heading-caps-small-orange">Client Satisfaction</h3>
 						</div>
 						<p class="sans-serif-small-grey">Donec finibus leo eget dui porttitor, tincidunt vestibulum felis mattis. Donec sit amet rutrum massa. Praesent vel mattis nisi. Suspendisse 
-						semper aliquam sodales. Morbi vulputate felis nec gravida pharetra. Vivamus dolor erat, placerat non egestas vel</p>
+						semper aliquam sodales. Morbi vulputate felis nec gravida pharetra. Vivamus dolor erat, placerat non egestas vel Mauris ut metus ut lorem ornare sodales ac quis ligula. 
+						Fusce pulvinar metus non sollicitudin placerat. Donec consequat pellentesque mauris nec aliquet. Ut ac ante ex. Curabitur vel lobortis nulla. Vivamus elit tortor, laoreet 
+						nec ligula non, feugiat fermentum magna.</p>
 						<a class="small-link-orange" href="#">Read client reviews</a>
 					</div>
 					<!-- END THIRD SECTION THIRD COLUMN -->
-					<!-- THIRD SECTION FOURTH COLUMN -->
-					<div class="third-section-col">
-						<div class="third-section-col-top">
-							<div class="third-section-icons">
-								<img src="./images/reach-out-icon.png">
-							</div>
-							<h3 class="heading-caps-small-orange">Reach Out To Us</h3>
-						</div>
-						<p class="sans-serif-small-grey">Donec finibus leo eget dui porttitor, tincidunt vestibulum felis mattis. Donec sit amet rutrum massa. Praesent vel mattis nisi. Suspendisse 
-						semper aliquam sodales. Morbi vulputate felis nec gravida pharetra. Vivamus dolor erat, placerat non egestas vel</p>
-						<a class="small-link-orange" href="#">Get in touch with us</a>
-					</div>
-					<!-- END THIRD SECTION FOURTH COLUMN -->
 				</div>
 				<!-- END THIRD SECTION ROWS -->
 			</div>
