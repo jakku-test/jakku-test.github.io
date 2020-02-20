@@ -13,16 +13,22 @@
 		
 		<script>
 		
-		
 		var main = function() {
 			$(".menu-toggle").click(function() {
 				$(".top-menu").toggleClass("active");
 			});
-			
 		}
 		
-		$(document).ready(main);
+		if($(".top-menu").is(":visible"))
+		{
+			$("body").addClass(".lock-scroll");
+		}
+		else
+		{
+			$("body").removeClass(".lock-scroll");
+		}
 		
+		$(document).ready(main);	
 		
 		</script>
 	
@@ -38,8 +44,7 @@
 				<div class="nav-logo-wrapper">
 					<img class="nav-logo-img" src="./images/nav-logo.png">
 				</div>
-				<div class="top-menu">
-					
+				<div class="top-menu">	
 					<ul>
 						<li><a class="top-nav-links" href="index.html">Home</a></li>
 						<li><a class="top-nav-links" href="about.html">About Us</a></li>

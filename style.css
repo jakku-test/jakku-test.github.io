@@ -996,6 +996,15 @@ html, body {
 @media screen and (max-width: 768px) {
 	
 	
+	/*---- STOP BODY SCROLLING ----*/
+	
+	
+	.lock-scroll {
+		position: fixed;
+		overflow: hidden;
+	}
+	
+	
 	/*---- TEXT ELEMENTS ----*/
 	
 	
