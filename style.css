@@ -20,7 +20,7 @@ html, body {
 .heading-large-serif {
 	margin: 0;
 	padding: 0;
-	font-size: 50px;
+	font-size: 40px;
 	font-family: Georgia, sans-serif;
 	font-weight: 400;
 	color: #396E74;
@@ -302,6 +302,15 @@ html, body {
 
 .section-spacing-two {
 	padding: 120px 0;
+}
+
+.section-spacing-three {
+	padding-top: 50px;
+	padding-bottom: 0;
+}
+
+.section-spacing-four {
+	padding-bottom: 0;
 }
 
 
@@ -591,7 +600,7 @@ html, body {
 }
 
 .about-third-section {
-	padding: 70px 20px;
+	padding: 70px 0;
 	padding-bottom: 110px;
 }
 
@@ -622,14 +631,13 @@ html, body {
 	margin: 50px 0;
 }
 
-.services-section-spacing-one, .faq-section-spacing-one, .faq-section-spacing-two, .contact-section-spacing {
-	border-bottom: 1px solid #D0D6E1;
+.services-section-spacing-one, .contact-section-spacing {
+	
 }
 
 .services-section-spacing-two {
 	padding-top: 50px;
 	padding-bottom: 0;
-	border: none;
 }
 
 .services-third-section-col {
@@ -669,8 +677,13 @@ html, body {
 	padding: 50px 0;
 }
 
+.faq-section-spacing-one {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #D0D6E1;
+}
+
 .faq-section-spacing-two {
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 .faq-section-top-text {
@@ -696,6 +709,10 @@ html, body {
 
 /*-------- CONTACT PAGE --------*/
 
+
+.contact-section-spacing {
+	
+}
 
 .contact-third-section-wrapper {
 	max-width: 650px;
