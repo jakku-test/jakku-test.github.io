@@ -564,7 +564,7 @@ html, body {
 
 .about-second-section-col-wrapper {
 	display: grid;
-	grid-template-columns: minmax(auto, 650px) minmax(auto, 350px);
+	grid-template-columns: minmax(auto, 650px) minmax(auto, 325px);
 	grid-gap: 50px;
 	justify-content: space-between;
 	margin: 0;
@@ -576,18 +576,18 @@ html, body {
 	padding: 0;
 }
 
-.about-section-logo-wrapper {
+.about-section-top-img-wrapper {
 	margin: 0;
 	padding: 0;
 	max-width: 325px;
 	overflow: hidden;
 }
 
-.about-section-large-img {
+.about-section-top-img {
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .about-third-section-col {
@@ -1050,6 +1050,19 @@ html, body {
 	}
 	
 	
+	/*---- ABOUT PAGE ----*/
+	
+	
+	.about-second-section-col-wrapper {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 50px;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0;
+	}
+	
+	
 	/*---- CONTACT PAGE ----*/
 	
 	
@@ -1060,6 +1073,20 @@ html, body {
 		max-width: 650px;
 		margin: 0;
 		padding: 0;
+	}
+	
+	.about-section-top-img-wrapper {
+		margin: 0 auto;
+		padding: 0;
+		max-width: 325px;
+		overflow: hidden;
+	}
+	
+	.about-section-top-img {
+		margin: 0;
+		padding: 0;
+		max-width: auto;
+		max-height: 100%;
 	}
 	
 	
