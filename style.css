@@ -376,7 +376,7 @@ html, body {
 	padding: 20px 0;
 }
 
-.section-top-text {
+.first-section-top-text {
 	margin: 0;
 	padding: 0;
 }
@@ -1035,6 +1035,12 @@ html, body {
 	
 	/*---- FIRST SECTION ----*/
 	
+	
+	.first-section-top-text {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
 	
 	.section-top-links {
 		display: flex;
