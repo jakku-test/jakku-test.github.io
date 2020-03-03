@@ -617,6 +617,10 @@ html, body {
 	margin-bottom: 40px;
 }
 
+#about-jumpto {
+	
+}
+
 
 
 
@@ -658,6 +662,10 @@ html, body {
 .services-page-fourth-section-bot {
 	margin: 0;
 	margin-bottom: 50px;
+}
+
+#services-jumpto {
+	
 }
 
 
@@ -709,10 +717,6 @@ html, body {
 
 /*-------- CONTACT PAGE --------*/
 
-
-.contact-section-spacing {
-	
-}
 
 .contact-third-section-wrapper {
 	max-width: 650px;
@@ -774,6 +778,10 @@ html, body {
 	font-family: Arial, sans-serif;
 	color: #777777;
 	line-height: 1.6;
+}
+
+#contact-jumpto {
+	
 }
 
 
@@ -1092,10 +1100,6 @@ html, body {
 		padding: 0;
 		max-width: auto;
 		max-height: 100%;
-	}
-	
-	#contact-jumpto {
-		
 	}
 	
 	
