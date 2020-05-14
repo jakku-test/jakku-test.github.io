@@ -465,8 +465,11 @@ html, body {
 .fourth-section-col {
 	display: flex;
 	flex-direction: column;
-	margin: 0;
-	padding: 0;
+	margin: 20px auto;
+	padding: 30px;
+	background-color: #F5F6F9;
+	border: 1px solid #D0D6E1;
+	border-radius: 10px;
 }
 
 .fourth-section-text {
@@ -481,7 +484,7 @@ html, body {
 
 .footer {
 	margin: 0 auto;
-	padding: 80px 0;
+	padding: 95px 0 80px 0;
 	max-width: 1200px;
 }
 
@@ -635,13 +638,13 @@ html, body {
 	margin: 50px 0;
 }
 
-.services-section-spacing-one, .contact-section-spacing {
-	
+.services-section-spacing-one {
+	padding: 50px 0 70px 0;
 }
 
 .services-section-spacing-two {
-	padding-top: 50px;
-	padding-bottom: 0;
+	padding: 50px 0 70px 0;
+	border-top: 1px solid #D0D6E1;
 }
 
 .services-third-section-col {
@@ -685,7 +688,13 @@ html, body {
 	padding: 50px 0;
 }
 
-.faq-section-spacing-one {
+.faq-section-bot-wrapper {
+	margin: 0;
+	padding: 50px 0;
+	max-width: 850px;
+}
+
+.faq-section-spacing-one, .contact-section-spacing-one {
 	padding-bottom: 30px;
 	border-bottom: 1px solid #D0D6E1;
 }
@@ -742,6 +751,14 @@ html, body {
 	padding: 0;
 }
 
+.contact-section-info-col-heading {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
 .contact-section-info-col {
 	margin: 15px 0;
 	padding: 0;
@@ -749,8 +766,10 @@ html, body {
 
 .contact-section-info-col-img {
 	margin: 0;
-	margin-left: 20px;
+	margin-left: 15px;
 	padding: 0;
+	width: 35px;
+	height: 35px;
 }
 
 .contact-section-info-col-2 {
@@ -783,6 +802,12 @@ html, body {
 #contact-jumpto {
 	
 }
+
+
+
+
+
+
 
 
 
