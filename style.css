@@ -241,7 +241,7 @@ html, body {
 	font-size: 15px;
 	font-family: Trebuchet MS, sans-serif;
 	font-weight: 600;
-	color: #EFEFEF;
+	color: #FFFFFF;
 	letter-spacing: 2.5px;
 	width: 210px;
 	background-color: #DE8181;
@@ -602,7 +602,7 @@ html, body {
 	border-top: 1px solid #D0D6E1;
 }
 
-.about-second-section-col, .about-third-section-col, .services-second-section-col, .services-third-section-col, .faq-second-section-col, .contact-second-section-col {
+.about-second-section-col, .about-third-section-col, .services-second-section-col, .services-third-section-col, .faq-second-section-col, .contact-section-col {
 	margin: 0;
 	padding: 0;
 }
@@ -802,8 +802,6 @@ html, body {
 	margin: 0;
 	margin-left: 15px;
 	padding: 0;
-	width: 35px;
-	height: 35px;
 }
 
 .contact-section-info-col-2 {
