@@ -30,7 +30,7 @@ html, body {
 
 .heading-large-serif {
 	padding-bottom: 10px;
-	font-size: 35px;
+	font-size: 40px;
 	font-family: Georgia, serif;
 	color: #396E74;
 }
@@ -1100,7 +1100,7 @@ html, body {
 	
 	.heading-large-serif {
 		font-size: 25px;
-		font-weight: 600;
+		font-weight: 400;
 	}
 	
 	.subheading-small-grey {
