@@ -434,7 +434,7 @@ html, body {
 }
 
 .second-section-col-logo {
-	margin: 20px 0;
+	margin: 0;
 	padding: 0;
 	width: 100%;
 }
@@ -648,9 +648,16 @@ html, body {
 	margin-bottom: 40px;
 }
 
+.services-section-bot-wrapper, .about-section-bot-wrapper, .faq-section-bot-wrapper {
+	margin: 0;
+	padding: 50px 0;
+	max-width: 850px;
+}
+
 #about-jumpto {
 	
 }
+
 
 
 
@@ -719,12 +726,6 @@ html, body {
 	grid-gap: 80px;
 	margin: 0;
 	padding: 50px 0;
-}
-
-.faq-section-bot-wrapper {
-	margin: 0;
-	padding: 50px 0;
-	max-width: 850px;
 }
 
 .faq-section-spacing-one, .contact-section-spacing-one {
