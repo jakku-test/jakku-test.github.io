@@ -1224,17 +1224,12 @@ html, body {
 		padding: 0;
 	}
 	
-	
-	/*---- CONTACT PAGE ----*/
-	
-	
-	.contact-third-section-info-wrapper {
+	.about-third-section-col-wrapper, .faq-section-col-wrapper {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-		grid-gap: 30px;
-		max-width: 650px;
+		grid-gap: 60px;
 		margin: 0;
-		padding: 0;
+		padding: 50px 0;
 	}
 	
 	.about-section-top-img-wrapper {
@@ -1249,6 +1244,19 @@ html, body {
 		padding: 0;
 		max-width: auto;
 		max-height: 100%;
+	}
+	
+	
+	/*---- CONTACT PAGE ----*/
+	
+	
+	.contact-third-section-info-wrapper {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 30px;
+		max-width: 650px;
+		margin: 0;
+		padding: 0;
 	}
 	
 	
