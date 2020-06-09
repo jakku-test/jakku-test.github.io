@@ -660,8 +660,24 @@ html, body {
 }
 
 .about-second-section-col, .about-third-section-col, .services-second-section-col, .services-third-section-col, .faq-second-section-col, .contact-section-col {
+	position: relative;
 	margin: 0;
 	padding: 0;
+}
+
+.about-third-section-col {
+	padding-left: 25px;
+}
+
+.about-third-section-col::before {
+	position: absolute;
+	left: 0;
+	top: 25px;
+	content: '';
+	margin: 0;
+	padding: 0;
+	width: 10px;
+	border: 1px solid #608599;
 }
 
 .about-section-top-img-wrapper {
@@ -676,10 +692,6 @@ html, body {
 	padding: 0;
 	max-width: 100%;
 	max-height: 100%;
-}
-
-.about-third-section-col {
-	text-align: center;
 }
 
 .about-second-section-col-img, .about-third-section-col-img, .services-third-section-col-img {
@@ -704,7 +716,7 @@ html, body {
 .about-third-section-col-wrapper {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-	grid-gap: 80px;
+	grid-gap: 60px;
 	margin: 0;
 	padding: 50px 0;
 }
