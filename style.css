@@ -17,7 +17,7 @@ html, body {
 /*---- TEXT & LINK ELEMENTS ----*/
 
 
-#heading-lg-serif, #subheading-md-sans-serif {
+#hdng-lg-serif, #subhdng-md-sans-serif {
 	margin: 0;
 	padding: 0;
 	font-size: 40px;
@@ -27,13 +27,13 @@ html, body {
 	line-height: 1.6;
 }
 
-#subheading-md-sans-serif {
+#subhdng-md-sans-serif {
 	font-size: 20px;
 	font-family: Tahoma, sans-serif;
 	color: #656F70;
 }
 
-.heading-caps-lg-blue, .heading-caps-md-blue, .heading-caps-md-blue-2, .heading-caps-md-blue-3, .heading-caps-sm-blue, .heading-caps-sm-blue-2, .heading-caps-sm-orange, .heading-caps-sm-white, .heading-caps-sm-black {
+.hdng-caps-lg-blue, .hdng-caps-md-blue, .hdng-caps-md-blue-2, .hdng-caps-md-blue-3, .hdng-caps-sm-blue, .hdng-caps-sm-blue-2, .hdng-caps-sm-orange, .hdng-caps-sm-white, .hdng-caps-sm-black, .hdng-caps-sm-blue-3 {
 	margin: 15px 0;
 	padding: 0;
 	font-size: 18px;
@@ -44,48 +44,55 @@ html, body {
 	text-transform: uppercase;
 }
 
-.heading-caps-lg-blue {
+.hdng-caps-lg-blue {
 	margin: 0;
 	font-size: 40px;
 	color: #447D9B;
 }
 
-.heading-caps-md-blue, .heading-caps-md-blue-2 {
+.hdng-caps-md-blue, .hdng-caps-md-blue-2 {
 	margin: 0;
 	font-size: 20px;
 	color: #4586AA;
 }
 
-.heading-caps-md-blue-2 {
+.hdng-caps-md-blue-2 {
 	font-size: 30px;
 	color: #7191B1;
 }
 
-.heading-caps-md-blue-3 {
+.hdng-caps-md-blue-3 {
 	font-size: 24px;
 	color: #4697C3;
 }
 
-.heading-caps-sm-orange {
+.hdng-caps-sm-orange {
 	color: #E5AA99;
 }
 
-.heading-caps-sm-white, .heading-caps-sm-black {
+.hdng-caps-sm-white, .hdng-caps-sm-black, .hdng-caps-sm-blue-3 {
 	margin: 0;
 	font-size: 15px;
-	color: #E4EDF0;
+	color: #FFFFFF;
 }
 
-.heading-caps-sm-blue-2 {
+.hdng-caps-sm-blue-2 {
 	margin-bottom: 10px;
 	font-size: 15px;
 	line-height: 1.6;
 	color: #608599;
 }
 
-.heading-caps-sm-black {
+.hdng-caps-sm-black {
 	font-weight: 600;
 	color: #333333;
+}
+
+.hdng-caps-sm-blue-3 {
+	margin: 8px 0 12px 0;
+	font-family: Arial, serif;
+	font-size: 14px;
+	color: #A8CCDF;
 }
 
 .sans-serif-sm-grey, .sans-serif-sm-grey-2, .sans-serif-sm-grey-3, .sans-serif-sm-grey-4, .sans-serif-sm-orange, .sans-serif-sm-white, .sans-serif-sm-bold, .serif-sm-grey {
@@ -123,6 +130,7 @@ html, body {
 }
 
 .sans-serif-sm-white {
+	margin: 5px 0;
 	color: #D1DFE4;
 }
 
@@ -212,10 +220,14 @@ html, body {
 	background-color: #6B7C83;
 }
 
-.section-inner {
+.section-inner, .section-inner-2 {
 	margin: 0 auto;
 	padding: 100px 0;
 	max-width: 1200px;
+}
+
+.section-inner-2 {
+	max-width: 1500px;
 }
 
 .section-spacing {
@@ -324,6 +336,10 @@ html, body {
 	padding: 0;
 }
 
+.section-content-pdng-top {
+	padding-top: 15px;
+}
+
 .section-content-pdng-bot {
 	padding-bottom: 30px;
 }
@@ -404,6 +420,30 @@ html, body {
 	text-align: center;
 }
 
+#realestate-jumpto {
+	
+}
+
+#powersattorney-jumpto {
+	
+}
+
+#willsestates-jumpto {
+	
+}
+
+#affidavits-jumpto {
+	
+}
+
+#mortgages-jumpto {
+	
+}
+
+#notarizations-jumpto {
+	
+}
+
 
 /*---- THIRD SECTION ----*/
 
@@ -434,15 +474,29 @@ html, body {
 
 .footer-col-wrapper {
 	display: grid;
-	grid-template-columns: 1fr minmax(auto, 200px) minmax(auto, 150px);
+	grid-template-columns: 1fr 1fr minmax(auto, 150px);
 	gap: 80px;
 	justify-content: space-between;
 	margin: 0;
 	padding: 0;
 }
 
+.border {
+	border: 1px solid black;
+}
+
+.footer-padding {
+	padding-right: 20px;
+}
+
 .footer-align {
 	text-align: center;
+}
+
+.footer-location-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(219px, 1fr));
+	justify-content: space-between;
 }
 
 .footer-links {
@@ -467,7 +521,7 @@ html, body {
 	font-size: 12px;
 	font-family: Arial, sans-serif;
 	font-weight: 600;
-	color: #D1DFE4;
+	color: #FFFFFF;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -684,10 +738,10 @@ html, body {
 
 
 
-/*-------- 960px WIDTH --------*/
+/*-------- 1000px WIDTH --------*/
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
 	
 	
 	/*---- FOOTER ----*/
@@ -702,14 +756,6 @@ html, body {
 		padding: 0;
 	}
 	
-	.footer-align {
-		text-align: left;
-	}
-	
-	.footer-icons {
-		margin: 0;
-		padding: 20px 22px 0 0;
-	}
 	
 }
 
@@ -842,13 +888,13 @@ html, body {
 	/*---- TEXT ELEMENTS ----*/
 	
 	
-	.heading-large-serif {
+	.hdng-large-serif {
 		font-size: 30px;
 		font-weight: 400;
 		margin-bottom: 10px;
 	}
 	
-	.subheading-small-grey {
+	.subhdng-small-grey {
 		font-size: 20px;
 	}
 	
@@ -865,14 +911,22 @@ html, body {
 	/*---- FOURTH SECTION ----*/
 	
 	
-	.fourth-section-col {
-		display: flex;
-		flex-direction: column;
-		margin: 0 auto;
+	.footer-location-wrapper {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	
+	
+	/*---- FOOTER ----*/
+	
+	
+	.footer-col-wrapper {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 80px;
+		justify-content: space-between;
+		margin: 0;
 		padding: 0;
-		background: none;
-		border: none;
-		border-radius: none;
 	}
 	
 	
