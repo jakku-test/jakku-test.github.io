@@ -90,12 +90,12 @@ html, body {
 
 .hdng-caps-sm-blue-3 {
 	margin: 8px 0 12px 0;
-	font-family: Arial, serif;
 	font-size: 14px;
+	font-family: Arial, serif;
 	color: #A8CCDF;
 }
 
-.sans-serif-sm-grey, .sans-serif-sm-grey-2, .sans-serif-sm-grey-3, .sans-serif-sm-grey-4, .sans-serif-sm-orange, .sans-serif-sm-white, .sans-serif-sm-bold, .serif-sm-grey {
+.sans-serif-sm-grey, .sans-serif-sm-grey-2, .sans-serif-sm-grey-3, .sans-serif-sm-grey-4, .sans-serif-sm-orange, .sans-serif-sm-white, .sans-serif-sm-bold, .serif-sm-grey, .sans-serif-sm-white-2 {
 	margin: 10px 0;
 	padding: 0;
 	font-size: 15px;
@@ -138,9 +138,15 @@ html, body {
 	font-weight: 600;
 }
 
-.serif-sm-grey {
+.serif-sm-grey, .sans-serif-sm-white-2 {
 	font-size: 16px;
 	font-family: Georgia, serif;
+}
+
+.sans-serif-sm-white-2 {
+	font-size: 15px;
+	font-family: Tahoma, sans-serif;
+	color: #D1DFE4;
 }
 
 .top-nav-links {
@@ -290,15 +296,15 @@ html, body {
 .nav-logo-wrapper {
 	margin: 0;
 	padding: 0;
-	max-width: 100%;
+	width: 407px;
 	max-height: 100%;
 }
 
 .nav-logo-img {
 	margin: 0;
 	padding: 0;
-	max-width: 469px;
-	overflow: hidden;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 
