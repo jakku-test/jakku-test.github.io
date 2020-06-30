@@ -272,7 +272,7 @@ html, body {
 .top-menu {
 	margin: 0;
 	padding: 0;
-	min-width: 502px;
+	
 }
 
 .top-nav ul {
@@ -797,7 +797,7 @@ html, body {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		max-width: 1200px;
+		max-width: 900px;
 		z-index: 1;
 	}
 	
@@ -812,14 +812,14 @@ html, body {
 		background-color: #FFFFFF;
 	}
 	
-	.top-nav ul {
+	.top-menu ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 		border-bottom: 1px dotted #888888;
 	}
 
-	.top-nav li {
+	.top-menu li {
 		display: block;
 		list-style-type: none;
 		margin: 0;
@@ -912,14 +912,10 @@ html, body {
 	/*---- TEXT ELEMENTS ----*/
 	
 	
-	.hdng-large-serif {
-		font-size: 30px;
+	#hdng-lg-serif {
+		font-size: 35px;
 		font-weight: 400;
 		margin-bottom: 10px;
-	}
-	
-	.subhdng-small-grey {
-		font-size: 20px;
 	}
 	
 	
