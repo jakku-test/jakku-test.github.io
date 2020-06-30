@@ -272,7 +272,6 @@ html, body {
 .top-menu {
 	margin: 0;
 	padding: 0;
-	
 }
 
 .top-nav ul {
@@ -296,7 +295,7 @@ html, body {
 .nav-logo-wrapper {
 	margin: 0;
 	padding: 0;
-	width: 407px;
+	max-width: 407px;
 	max-height: 100%;
 }
 
