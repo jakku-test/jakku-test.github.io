@@ -921,11 +921,29 @@ html, body {
 	/*---- SECTION CONTENT CONTAINERS ----*/
 	
 	
+	.section-col-wrapper-1 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 80px;
+		margin: 0;
+		padding: 0;
+	}
+	
 	.second-col-wrapper-2 {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		gap: 60px;
 		margin: 0;
+		padding: 0;
+	}
+
+	.second-col-wrapper-3 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 50px;
+		max-width: 850px;
+		margin: 0;
+		margin-bottom: 30px;
 		padding: 0;
 	}
 	
