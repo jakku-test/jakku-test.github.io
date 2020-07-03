@@ -367,6 +367,7 @@ html, body {
 .top-menu {
 	margin: 0;
 	padding: 0;
+	min-width: 502px;
 }
 
 .top-nav ul {
@@ -783,7 +784,7 @@ html, body {
 	.nav-logo-img {
 		margin: 0;
 		padding: 0;
-		width: 70%;
+		width: 80%;
 		height: auto;
 	}
 	
@@ -818,7 +819,8 @@ html, body {
 		left: 0;
 		margin: 0;
 		padding: 0;
-		width: 100%;
+		min-width: 100%;
+		min-width: 100%;
 		background-color: #FFFFFF;
 	}
 	
