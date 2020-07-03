@@ -778,15 +778,7 @@ html, body {
 @media screen and (max-width: 1000px) {
 	
 	
-	/*---- TOP NAV ----*/
 	
-	
-	.nav-logo-img {
-		margin: 0;
-		padding: 0;
-		width: 80%;
-		height: auto;
-	}
 	
 	
 }
@@ -958,6 +950,17 @@ html, body {
 		margin: 0;
 		margin-bottom: 30px;
 		padding: 0;
+	}
+	
+	
+	/*---- TOP NAV ----*/
+	
+	
+	.nav-logo-img {
+		margin: 0;
+		padding: 0;
+		width: 80%;
+		height: auto;
 	}
 	
 	
