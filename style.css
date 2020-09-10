@@ -149,6 +149,22 @@ html, body {
 	color: #D1DFE4;
 }
 
+.text-link-sm-blue {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: Tahoma, sans-serif;
+	color: #4697C3;
+	text-decoration: none;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.text-link-sm-blue:hover {
+	color: #255B78;
+}
+
 .top-nav-links {
 	margin: 0;
 	padding: 0;
@@ -570,11 +586,6 @@ html, body {
 
 
 .about-second-section-col-wrapper {
-	display: grid;
-	grid-template-columns: minmax(auto, 650px) minmax(auto, 325px);
-	gap: 50px;
-	justify-content: space-between;
-	align-items: center;
 	margin: 0;
 	padding: 0;
 }
@@ -590,20 +601,6 @@ html, body {
 	top: 18px;
 	content: '\2022';
 	color: #608599;
-}
-
-.about-section-top-img-wrapper {
-	margin: 0;
-	padding: 0;
-	max-width: 325px;
-	overflow: hidden;
-}
-
-.about-section-top-img {
-	margin: 0;
-	padding: 0;
-	max-width: 100%;
-	max-height: 100%;
 }
 
 #about-jumpto {
@@ -1001,30 +998,6 @@ html, body {
 	.footer-location-wrapper {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-	}
-	
-	
-	/*---- ABOUT PAGE ----*/
-	
-	
-	.about-second-section-col-wrapper {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		gap: 50px;
-		justify-content: space-between;
-		margin: 0;
-		padding: 0;
-	}
-	
-	.about-section-top-img-wrapper {
-		margin: 0 auto;
-		padding: 0;
-		max-width: 325px;
-		overflow: hidden;
-	}
-	
-	.about-section-top-img {
-		display: none;
 	}
 	
 	
