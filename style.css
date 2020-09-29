@@ -176,6 +176,7 @@ html, body {
 	font-family: Tahoma, sans-serif;
 	color: #2177A5;
 	text-decoration: none;
+	background-color: #ECF3F7;
 	border: 1px solid #B2C9D5;
 	-webkit-transition: 0.2s;
 	-moz-transition: 0.2s;
@@ -184,7 +185,6 @@ html, body {
 
 .text-link-sm-blue:hover {
 	color: #255B78;
-	background-color: #ECF3F7;
 }
 
 .text-link-sm-grey {
@@ -201,6 +201,19 @@ html, body {
 
 .text-link-sm-grey:hover {
 	color: #2177A5
+}
+
+.text-link-img-rights {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	color: #9AD5DF;
+	text-decoration: none;
+}
+
+.text-link-img-rights:hover {
+	text-decoration: underline;
 }
 
 .top-nav-links {
