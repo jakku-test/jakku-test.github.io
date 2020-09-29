@@ -160,6 +160,7 @@ html, body {
 .serif-sm-grey, .sans-serif-sm-white-2 {
 	font-size: 16px;
 	font-family: Georgia, serif;
+	color: #666666;
 }
 
 .sans-serif-sm-white-2 {
@@ -265,10 +266,10 @@ html, body {
 	padding: 0;
 	width: 100%;
 	height: 350px;
-	background-image: url(./images/water-island-banner.jpg);
+	background-image: url(./images/banner-ten.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 }
 
 .blue-section-container {
@@ -542,6 +543,10 @@ html, body {
 	justify-content: space-between;
 	margin: 0;
 	padding: 0;
+}
+
+.footer-img-rights {
+	max-width: 595px;
 }
 
 .border {
