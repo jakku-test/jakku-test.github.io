@@ -169,7 +169,7 @@ html, body {
 	color: #D1DFE4;
 }
 
-.text-link-sm-blue {
+.text-link-sm-block {
 	margin: 0;
 	padding: 10px;
 	font-size: 15px;
@@ -183,8 +183,9 @@ html, body {
 	transition: 0.2s;
 }
 
-.text-link-sm-blue:hover {
+.text-link-sm-block:hover {
 	color: #255B78;
+	background-color: #D7E9F3;
 }
 
 .text-link-sm-grey {
