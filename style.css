@@ -280,10 +280,10 @@ html, body {
 	padding: 0;
 	width: 100%;
 	height: 350px;
-	background-image: url(./images/banner-ten.jpg);
+	background-image: url(./images/banner-eleven.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 }
 
 .blue-section-container {
