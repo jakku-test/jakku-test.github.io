@@ -568,6 +568,7 @@ html, body {
 
 .footer-img-rights {
 	max-width: 595px;
+	overflow-wrap: anywhere;
 }
 
 .footer-padding {
