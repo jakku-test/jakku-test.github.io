@@ -983,12 +983,7 @@ html, body {
 	.top-banner-container {
 		margin: 0;
 		padding: 0;
-		width: 100%;
-		height: 150px;
-		background-image: url(./images/banner-img.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: bottom;
+		display: none;
 	}
 	
 	
@@ -1024,11 +1019,26 @@ html, body {
 	
 	/*---- TOP NAV ----*/
 	
+	.menu-toggle {
+		position: fixed;
+		display: block;
+		top: 95px;
+		right: 15px;
+		margin: 0;
+		padding: 5px;
+		background-color: #0F9999;
+		border-radius: 4px;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		transition: 0.3s;
+		z-index: 9999;
+	}
 	
 	.nav-logo-img {
 		margin: 0;
 		padding: 0;
-		width: 80%;
+		width: 90%;
 		height: auto;
 	}
 	
