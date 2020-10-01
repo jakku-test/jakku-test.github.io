@@ -1025,10 +1025,22 @@ html, body {
 	
 	/*---- TOP NAV ----*/
 	
+	
+	.top-nav {
+		position: relative;
+		margin: 0 auto;
+		padding: 60px 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		z-index: 1;
+	}
+	
 	.menu-toggle {
 		position: fixed;
 		display: block;
-		top: 85px;
+		top: 68px;
 		right: 15px;
 		margin: 0;
 		padding: 5px;
