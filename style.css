@@ -980,16 +980,15 @@ html, body {
 	/*---- CONTAINERS ----*/
 	
 	
-	.no-spacing-container {
-		margin: 0;
-		padding: 0 20px;
-		background-color: #E8F3F6;
-	}
-	
 	.top-banner-container {
 		margin: 0;
 		padding: 0;
-		display: none;
+		width: 100%;
+		height: 150px;
+		background-image: url(./images/banner-img.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
 	}
 	
 	
@@ -1026,37 +1025,10 @@ html, body {
 	/*---- TOP NAV ----*/
 	
 	
-	.top-nav {
-		position: relative;
-		margin: 0 auto;
-		padding: 60px 0;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		width: 100%;
-		z-index: 1;
-	}
-	
-	.menu-toggle {
-		position: fixed;
-		display: block;
-		top: 85px;
-		right: 15px;
-		margin: 0;
-		padding: 5px;
-		background-color: #0F9999;
-		border-radius: 4px;
-		cursor: pointer;
-		-webkit-transition: 0.3s;
-		-moz-transition: 0.3s;
-		transition: 0.3s;
-		z-index: 9999;
-	}
-	
 	.nav-logo-img {
 		margin: 0;
 		padding: 0;
-		width: 90%;
+		width: 80%;
 		height: auto;
 	}
 	
