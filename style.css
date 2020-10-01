@@ -980,6 +980,12 @@ html, body {
 	/*---- CONTAINERS ----*/
 	
 	
+	.no-spacing-container {
+		margin: 0;
+		padding: 0 20px;
+		background-color: #E8F3F6;
+	}
+	
 	.top-banner-container {
 		margin: 0;
 		padding: 0;
@@ -1022,7 +1028,7 @@ html, body {
 	.menu-toggle {
 		position: fixed;
 		display: block;
-		top: 95px;
+		top: 85px;
 		right: 15px;
 		margin: 0;
 		padding: 5px;
