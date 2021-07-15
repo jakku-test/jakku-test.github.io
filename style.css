@@ -232,6 +232,21 @@ html, body {
 	padding: 0;
 }
 
+.section-col-wrapper-3 {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	margin: 0;
+	padding: 0;
+}
+
+.section-col-wrapper-4 {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
 .section-content-col-1, .section-content-col-2, .section-content-col-3 {
 	display: flex;
 	flex-direction: row;
@@ -268,7 +283,7 @@ html, body {
 .top-menu {
 	margin: 0;
 	padding: 0;
-	min-width: 502px;
+	
 }
 
 .top-nav ul {
@@ -325,6 +340,10 @@ html, body {
 	background-size: contain;
 }
 
+.border {
+	border: 1px solid black;
+}
+
 
 /*---- THIRD SECTION ----*/
 
@@ -336,6 +355,14 @@ html, body {
 	height: 400px;
 	background-image: url(./images/brick-bookcase.jpg);
 	background-repeat: no-repeat;
+}
+
+
+/*---- FOURTH SECTION ----*/
+
+
+.fourth-section-spacing {
+	padding: 50px;
 }
 
 
@@ -400,7 +427,112 @@ html, body {
 
 
 
+/*------------ RESIZING SECTION ------------*/
 
+
+/*-------- 1200px WIDTH --------*/
+
+
+@media screen and (max-width: 1200px) {
+	
+	
+	/*---- CONTAINERS ----*/
+	
+	
+	.section-container, .blue-section-container, .footer-container {
+		margin: 0;
+		padding: 0 20px;
+	}
+	
+	.section-container-banner {
+		padding: 0 20px;
+	}
+	
+	.blue-section-container {
+		padding: 0;
+	}
+	
+	.resize-spacing {
+		padding: 0 20px;
+	}
+	
+	
+	/*---- FOOTER ----*/
+	
+	
+	.footer-col-wrapper {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 80px;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0;
+	}
+	
+	
+}
+
+
+/*-------- 1000px WIDTH --------*/
+
+
+@media screen and (max-width: 1000px) {
+	
+	
+	
+	/*---- SECTION CONTENT CONTAINERS ----*/
+	
+	
+	.section-col-wrapper-3 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		margin: 0;
+		padding: 0;
+	}
+	
+	.section-col-wrapper-4 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 50px;
+		justify-content: center;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	
+	/*---- FOURTH SECTION ----*/
+	
+	
+	.fourth-section-spacing {
+		padding: 100px;
+	}
+
+
+/*-------- 900px WIDTH --------*/
+
+
+@media screen and (max-width: 900px) {
+	
+	
+	/*---- TOP NAV ----*/
+	
+	
+	.top-nav {
+		position: relative;
+		margin: 0 auto;
+		padding: 40px 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		z-index: 1;
+	}
+	
+	
+	
+	
+	
+	
 
 
 
