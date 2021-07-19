@@ -492,19 +492,34 @@ html, body {
 	padding: 0 0 0 4px;
 }
 
-.listings-img-wrapper, .listings-lg-img-wrapper, .listings-sm-img-wrapper {
+.listings-img-wrapper {
 	margin: 0;
 	padding: 0;
 	height: 250px;
+	background-image: url(./images/green_house-lg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	background-color: #DDDDDD;
 }
 
 .listings-lg-img-wrapper {
+	margin: 0;
+	padding: 0;
+	width: 100%;
 	height: 400px;
+	background-image: url(./images/green_house-lg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .listings-sm-img-wrapper {
 	height: 198px;
+	background-image: url(./images/house_interior-lg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 
