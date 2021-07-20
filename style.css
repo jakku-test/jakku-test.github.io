@@ -633,8 +633,24 @@ html, body {
 	/*-------- 768px WIDTH --------*/
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 	
+	
+	/*---- SECTION CONTENT CONTAINERS ----*/
+	
+	
+	.section-col-wrapper-1, .section-col-wrapper-2 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 80px;
+		justify-content: center;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	.section-col-wrapper-2 {
+		gap: 60px;
+	}
 	
 	.listings-container {
 		display: grid;
