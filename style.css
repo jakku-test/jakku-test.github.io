@@ -545,19 +545,6 @@ html, body {
 	/*---- CONTAINERS ----*/
 	
 	
-	.section-container, .blue-section-container, .footer-container {
-		margin: 0;
-		padding: 0 20px;
-	}
-	
-	.section-container-banner {
-		padding: 0 20px;
-	}
-	
-	.blue-section-container {
-		padding: 0;
-	}
-	
 	.resize-spacing {
 		padding: 0 20px;
 	}
@@ -585,7 +572,6 @@ html, body {
 @media screen and (max-width: 1000px) {
 	
 	
-	
 	/*---- SECTION CONTENT CONTAINERS ----*/
 	
 	
@@ -611,6 +597,15 @@ html, body {
 	
 	.fourth-section-spacing {
 		padding: 100px 20px;
+	}
+	
+	
+	/*---- LISTINGS PAGE ----*/
+	
+	
+	.listings-container-2 {
+		gap: 4px;
+		padding: 4px 0 0 0;
 	}
 
 
