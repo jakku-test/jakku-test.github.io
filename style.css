@@ -601,7 +601,6 @@ html, body {
 
 .services-container-mrgn {
 	margin-top: 50px;
-	margin-bottom: 180px;
 	background-color: #EAF2F4;
 }
 
@@ -643,6 +642,21 @@ html, body {
 	margin: 10px 15px 0 0;
 	padding: 0;
 	max-height: 25px;
+}
+
+.mclean-logo-md, .mclean-logo-sm {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 95px;
+	background-image: url(./images/mclean-logo-md.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mclean-logo-sm {
+	height: 52px;
 }
 
 
