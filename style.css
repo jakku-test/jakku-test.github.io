@@ -240,7 +240,6 @@ html, body {
 
 .section-inner-4 {
 	margin: 0 auto;
-	background-color: #EAF2F4;
 }
 
 .section-inner-3 {
@@ -599,6 +598,7 @@ html, body {
 .services-container-mrgn {
 	margin-top: 50px;
 	margin-bottom: 180px;
+	background-color: #EAF2F4;
 }
 
 .services-filler {
@@ -610,7 +610,6 @@ html, body {
 	margin: 0 auto;
 	padding: 30px 20px;
 	text-align: center;
-	
 }
 
 
