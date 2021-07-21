@@ -17,7 +17,7 @@ html, body {
 /*---- TEXT & LINK ELEMENTS ----*/
 
 
-.hdng-caps-md-black, .hdng-caps-md-black-2, .hdng-caps-md-black-3, .hdng-caps-sm-white, .hdng-md-orange, .hdng-md-white, .hdng-md-black, .hdng-md-grey, .hdng-md-grey-2 {
+.hdng-caps-md-black, .hdng-caps-md-black-2, .hdng-caps-md-black-3, .hdng-caps-lg-black, .hdng-caps-sm-white, .hdng-md-orange, .hdng-md-white, .hdng-md-black, .hdng-md-grey, .hdng-md-grey-2 {
 	margin: 15px 0;
 	padding: 0;
 	font-size: 18px;
@@ -28,9 +28,13 @@ html, body {
 	text-transform: uppercase;
 }
 
-.hdng-caps-md-black-2, .hdng-caps-md-black-3  {
+.hdng-caps-md-black-2, .hdng-caps-md-black-3, .hdng-caps-lg-black  {
 	font-size: 24px;
 	color: #222222;
+}
+
+.hdng-caps-lg-black {
+	font-size: 32px;
 }
 
 .hdng-caps-md-black-3-line {
@@ -79,7 +83,7 @@ html, body {
 	font-size: 18px;
 	font-family: Arial, sans-serif;
 	font-weight: 400;
-	color: #888888;
+	color: #666666;
 	letter-spacing: 1px;
 	text-transform: none;
 }
