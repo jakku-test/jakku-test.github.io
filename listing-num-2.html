@@ -3,11 +3,24 @@
 
 	<head>
 	
-		<title>Victoria Property Valuations</title>
+		<title>Victoria Property Valuation</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="shortcut icon" type="image/png" href="./images/favicon-img.png">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8"/>
+		
+		<script>
+		
+		var main = function() {
+			$(".menu-toggle").click(function() {
+				$(".top-menu").toggleClass("active");
+			});
+		}
+		
+		$(document).ready(main);	
+		
+		</script>
 		
 	</head>
 	
@@ -15,6 +28,7 @@
 	
 		<!-- TOP BAR -->
 		<div class="no-spacing-container">
+			<div class="bg-colour menu-transition"></div>
 			<!-- TOP NAV -->
 			<div class="top-nav">
 				<div class="nav-logo-wrapper">
@@ -24,15 +38,23 @@
 				</div>
 				<div class="top-menu">	
 					<ul>
-						<li><a class="top-nav-links" href="#services.html">Services</a></li>
+						<li><a class="top-nav-links" href="services.html">Services</a></li>
 						<li><a class="top-nav-links" href="listings.html">Listings</a></li>
-						<li><a class="top-nav-links" href="#contact.html">Contact</a></li>
+						<li><a class="top-nav-links" href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 			</div>
 			<!-- END TOP NAV -->
 		</div>
 		<!-- END TOP BAR -->
+		
+		<!-- RESPONSIVE MENU TOGGLE -->
+		<div class="menu-toggle">
+			<div class="one"></div>
+			<div class="two"></div>
+			<div class="three"></div>
+		</div>
+		<!-- END RESPONSIVE MENU TOGGLE -->
 
 		<!-- FIRST SECTION -->
 		<div class="top-banner-spacing">
@@ -81,12 +103,15 @@
 						<h2 class="hdng-caps-sm-white">Victoria Property Valuation</h2>
 						<p class="sans-serif-sm-grey-2">Sed placerat pharetra mauris, sed rhoncus nibh suscipit at. Donec iaculis dui a egestas volutpat. Praesent sagittis, 
 						dui id tempor blandit, ante tellus cursus enim, id pulvinar orci lectus non est.</p>
+						<a class="no-text-dec-link" href="#https://www.mcleanrealestategroup.ca/">
+							<img class="mclean-logo-sm" src="./images/mclean-logo-white-md.png" alt="Mclean Real Estate Group">
+						</a>
 					</div>
 					<!-- END FOOTER LEFT TEXT -->
 					<!-- FOOTER CONTACT INFO -->
 					<div class="no-mrgn-pdng">
 						<h2 class="hdng-caps-sm-white">Contact Information</h2>
-						<p class="sans-serif-sm-grey-2">Telephone: <a class="text-link-sm-blue" href="tel:250-111-2222">250-111-2222</a></p>
+						<p class="sans-serif-sm-grey-2">Phone: <a class="text-link-sm-blue" href="tel:250-111-2222">250-111-2222</a></p>
 						<p class="sans-serif-sm-grey-2">Email: <a class="text-link-sm-blue" href="mailto:workemail@email.com">workemail@email.com</a></p>
 						<div class="section-content-col-1">
 							<a class="no-text-dec-link" href="#https://twitter.com/VictoriaPropertyValuation/">
@@ -102,9 +127,9 @@
 					<div class="footer-links">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="#services.html">Services</a></li>
+							<li><a href="services.html">Services</a></li>
 							<li><a href="listings.html">Listings</a></li>
-							<li><a href="#contact.html">Contact</a></li>
+							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
 					<!-- END FOOTER LINKS -->

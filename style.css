@@ -792,14 +792,14 @@ html, body {
 		margin: 0;
 		padding: 0;
 		min-width: 100%;
-		background-color: #FFFFFF;
+		background-color: #E4E6E6;
 	}
 	
 	.top-menu ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		border-bottom: 1px dotted #888888;
+		border-bottom: 1px dotted #566265;
 	}
 
 	.top-menu li {
@@ -807,7 +807,7 @@ html, body {
 		list-style-type: none;
 		margin: 0;
 		padding: 20px;
-		border-top: 1px dotted #888888;
+		border-top: 1px dotted #566265;
 		text-align: center;
 	}
 	
