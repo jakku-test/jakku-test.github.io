@@ -760,6 +760,8 @@ html, body {
 		gap: 4px;
 		padding: 4px 0 0 0;
 	}
+	
+}
 
 
 /*-------- 900px WIDTH --------*/
@@ -781,6 +783,101 @@ html, body {
 		width: 100%;
 		z-index: 1;
 	}
+	
+	.top-menu {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		min-width: 100%;
+		background-color: #FFFFFF;
+	}
+	
+	.top-menu ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		border-bottom: 1px dotted #888888;
+	}
+
+	.top-menu li {
+		display: block;
+		list-style-type: none;
+		margin: 0;
+		padding: 20px;
+		border-top: 1px dotted #888888;
+		text-align: center;
+	}
+	
+	.active {
+		display: block;
+	}
+	
+	.lock-scroll {
+		overflow: hidden;
+	}
+	
+	.menu-open {
+		height: auto;
+	}
+	
+	.menu-toggle div {
+		margin: 6px 0;
+		padding: 0;
+		height: 5px;
+		background-color: #C1CDD0;
+		border-radius: 5px;
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		transition: 0.3s;
+		z-index: 9999;
+	}
+	
+	.menu-toggle {
+		position: fixed;
+		display: block;
+		top: 10px;
+		right: 15px;
+		margin: 0;
+		padding: 5px;
+		border-radius: 4px;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		transition: 0.3s;
+		z-index: 9999;
+	}
+	
+	.menu-toggle:hover div {
+		background-color: #8F9EA2;
+	}
+	
+	.one {
+		width: 40px;
+	}
+	
+	.two {
+		width: 40px;
+	}
+	
+	.three {
+		width: 40px;
+	}
+	
+	.toggle-close {
+		display: block;
+		margin: 8px 5px;
+		padding: 0;
+		width: 48px;
+		height: 48px;
+		background-image: url(./images/close-button.png);
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+	
+}
 	
 	
 	/*-------- 768px WIDTH --------*/
@@ -812,6 +909,8 @@ html, body {
 		margin: 0;
 		padding: 20px 0 120px 0;
 	}
+	
+}
 	
 	
 	
