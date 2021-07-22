@@ -238,16 +238,16 @@ html, body {
 	max-width: 1500px;
 }
 
-.section-inner-2, .section-inner-4 {
+.section-inner-2 {
 	max-width: 1200px;
+}
+
+.section-inner-3, .section-inner-4 {
+	max-width: 1000px;
 }
 
 .section-inner-4 {
 	margin: 0 auto;
-}
-
-.section-inner-3 {
-	max-width: 1000px;
 }
 
 .top-banner-spacing {
@@ -645,14 +645,9 @@ html, body {
 }
 
 .mclean-logo-md, .mclean-logo-sm {
-	display: block;
-	margin: 0;
+	margin: 15px 0 0 0;
 	padding: 0;
-	width: 100%;
-	height: 95px;
-	background-image: url(./images/mclean-logo-md.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	height: 85px;
 }
 
 .mclean-logo-sm {
