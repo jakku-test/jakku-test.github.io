@@ -827,7 +827,7 @@ html, body {
 		margin: 6px 0;
 		padding: 0;
 		height: 5px;
-		background-color: #C1CDD0;
+		background-color: #8F9EA2;
 		border-radius: 5px;
 		-webkit-transition: 0.3s;
 		-moz-transition: 0.3s;
@@ -851,7 +851,7 @@ html, body {
 	}
 	
 	.menu-toggle:hover div {
-		background-color: #8F9EA2;
+		background-color: #566265;
 	}
 	
 	.one {
