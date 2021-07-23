@@ -649,7 +649,7 @@ html, body {
 /*-------- BLOG PAGE --------*/
 
 
-.blog-col-wrapper {
+.blog-page-col-wrapper {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(329px, 1fr));
 	gap: 80px;
@@ -657,12 +657,26 @@ html, body {
 	padding: 40px 0 180px 0;
 }
 
-.blog-content-col {
+.blog-large-col-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-top: 45px;
+	margin-bottom: 180px;
+	padding: 0;
+	max-width: 700px;
+}
+
+.blog-content-col, .inner-blog-content-col {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
 	padding: 20px 40px;
 	border: 1px solid #DDDDDD;
+}
+
+.inner-blog-content-col {
+	padding: 20px 0;
+	border: none;
 }
 
 .blog-link-bot {
@@ -688,7 +702,7 @@ html, body {
 /*-------- CONTACT PAGE --------*/
 
 
-.contact-container {
+.contact-col-wrapper {
 	display: flex;
 	flex-direction: column;
 	margin-top: 45px;
