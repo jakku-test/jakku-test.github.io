@@ -277,13 +277,17 @@ html, body {
 /*---- SECTION CONTENT CONTAINERS ----*/
 
 
-.section-content-mrgn, .section-content-mrgn-2, .section-content-mrgn-bot, .section-content-mrgn-bot-2. .section-content-mrgn-top, .section-content-mrgn-top-2 {
+.section-content-mrgn, .section-content-mrgn-2, .section-content-mrgn-bot, .section-content-mrgn-bot-2, .section-content-mrgn-top, .section-content-mrgn-top-2 {
 	margin: 20px 0;
 	padding: 0;
 }
 
 .section-content-mrgn-2 {
 	margin: 50px 0;
+}
+
+.section-content-mrgn-bot-3 {
+	margin: 0 0 25px 0;
 }
 
 .section-content-mrgn-bot {
@@ -606,6 +610,10 @@ html, body {
 	padding: 0 0 0 4px;
 }
 
+.listings-mrgn {
+	margin: 20px 0;
+}
+
 .listings-img-wrapper {
 	margin: 0;
 	padding: 0;
@@ -845,11 +853,15 @@ html, body {
 		padding: 100px 20px;
 	}
 	
+	.blog-content-col, .inner-blog-content-col {
+		padding: 20px 20px;
+	}
+	
 	
 	/*---- LISTINGS PAGE ----*/
 	
 	
-	.listings-container-2 {
+	.listings-col-wrapper-2 {
 		gap: 4px;
 		padding: 4px 0 0 0;
 	}
