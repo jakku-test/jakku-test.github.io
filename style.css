@@ -548,7 +548,11 @@ html, body {
 
 
 .third-section-icons {
-	margin: 0 15px 0 0;
+	width: 49px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 12px 0 0;
 	padding: 0;
 }
 
